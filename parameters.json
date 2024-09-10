@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "983d47d9-9261-4860-b93c-4e6a23f412e1"
+        },
+        "resourceGroupName": {
+            "value": "proj16"
+        },
+        "name": {
+            "value": "shireesha12"
+        },
+        "location": {
+            "value": "East US"
+        },
+        "hostingPlanName": {
+            "value": "ASP-proj16-a9ec"
+        },
+        "serverFarmResourceGroup": {
+            "value": "proj16"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "ftpsState": {
+            "value": "FtpsOnly"
+        },
+        "linuxFxVersion": {
+            "value": "PHP|8.2"
+        }
+    }
+}
