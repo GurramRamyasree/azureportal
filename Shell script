@@ -1,6 +1,3 @@
-Open PowerShell Administrator and connect to Azure Account.
-  Command> connect-AzAccount
-Connect to ResourceGroup.  
-  Command> New-AzResourceGroup -ResourceGroupName -Location
-Resource Group Depolyment.
-  Command> New-AzResourceGroupDeployment -ResourceGroupName -Templatefile -Parameterfile
+Command> connect-AzAccount
+Command> New-AzResourceGroup -ResourceGroupName -Location
+Command> New-AzResourceGroupDeployment -ResourceGroupName -Templatefile -Parameterfile
